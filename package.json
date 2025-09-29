@@ -1,0 +1,14 @@
+{
+    "devDependencies": {
+        "@types/node": "^24.5.2"
+    },
+    "dependencies": {
+        "@aws-sdk/client-s3": "^3.899.0",
+        "cloudinary": "^2.7.0",
+        "dotenv": "^17.2.2"
+    },
+    "type": "module",
+    "scripts": {
+        "start": "ts-node Cloudinary.ts"
+    }
+}
