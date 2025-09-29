@@ -22,7 +22,7 @@ const r2 = new S3Client({
 });
 // path to image directory
 const RAW_DIR = path.resolve("./raw");
-const PREFIX = "2023";
+const PREFIX = "";
 
 async function processImages() {
   // read files
